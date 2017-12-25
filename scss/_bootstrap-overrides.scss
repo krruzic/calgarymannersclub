@@ -1,0 +1,27 @@
+.text-primary {
+  color: $gray-900 !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px fade-out($gray-900, 0.9);
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
+    color: $gray-900;
+  }
+}
+
+.font-weight-light {
+  font-weight: 100 !important;
+}

@@ -1,0 +1,9 @@
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .cta-inner {
+    padding: 3rem;
+    margin: 0.5rem;
+    background-color: fade-out($white, 0.15);
+  }
+}
